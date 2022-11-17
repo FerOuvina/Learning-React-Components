@@ -1,0 +1,29 @@
+.testimony__container {
+  width: 100%;
+  max-width: 80%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.351);
+  transition: all 1s ease-in-out;
+}
+.testimony__container:hover {
+  transform: scale(1.01);
+}
+.testimony__container--img {
+  width: 400px;
+  height: 100%;
+}
+.textimony__container--card {
+  text-align: center;
+  padding: 0.5rem;
+}
+.testimony__container--name {
+  font-size: 1.4rem;
+}
+.testimony__container--job {
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
+}

@@ -1,0 +1,80 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+  .App__container--title {
+    font-size: 1.4rem;
+    max-width: fit-content;
+    margin: 0.5rem 2rem;
+  }
+  .testimony__container {
+    margin: 0.5rem;
+    flex-direction: column;
+  }
+  .testimony__container:hover {
+    transform: none;
+  }
+  .testimony__container--img {
+    width: 100%;
+    max-width: fit-content;
+  }
+  .testimony__container--name {
+    font-size: 1.1rem;
+  }
+  .testimony__container--job {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) { 
+    .App__container--title {
+      font-size: 1.4rem;
+      max-width: fit-content;
+      margin: 0.5rem 2rem;
+    }
+    .testimony__container {
+      margin: 0.5rem;
+      flex-direction: column;
+    }
+    .testimony__container:hover {
+      transform: none;
+    }
+    .testimony__container--img {
+      width: 100%;
+      max-width: fit-content;
+    }
+    .testimony__container--name {
+      font-size: 1.1rem;
+    }
+    .testimony__container--job {
+      font-size: 1.1rem;
+    }
+}
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  { 
+    .App__container--title {
+      font-size: 2rem;
+      max-width: fit-content;
+      margin: 1rem 2rem;
+    }
+    .testimony__container {
+      margin: 1rem;
+      flex-direction: column;
+    }
+    .testimony__container:hover {
+      transform: none;
+    }
+    .testimony__container--img {
+      width: 100%;
+      max-width: fit-content;
+    }
+    .testimony__container--name {
+      font-size: 1.1rem;
+    }
+    .testimony__container--job {
+      font-size: 1.1rem;
+    }
+}
